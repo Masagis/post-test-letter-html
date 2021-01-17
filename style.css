@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.kanan {
+    text-align: right;
+}
+
+.content {
+    max-width: 70%;
+    margin: auto;
+}
+
+.col-5 {
+    float: left;
+    width: 5%;
+    margin-top: 6px;
+}
+
+.col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color: #333;
+}
+
+select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px dashed black;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
